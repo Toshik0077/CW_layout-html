@@ -1,0 +1,17 @@
+.profile {
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    /* може не підтримуватися у старих браузерах */
+    gap: 12px;
+  }
+  
+  .profile__img {
+    width: 34px;
+    height: 34px;
+  }
+  
+  .profile__text {
+    font-size: 18px;
+    line-height: 21px;
+  }
